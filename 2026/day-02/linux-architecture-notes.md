@@ -8,13 +8,13 @@ Linux Architecture:
 
 
 
+
 What are the core components of Linux?
 Kernel:This is the heart of the Linux which connects software with hardware. This has been written in C language.
 Shell: This is a command line interface (CLI) which allows users to interact with the kernel by interpreting and translating into instructions that kernel can understand. E.g: bash, ssh, zsh,ksh,csh etc.
 Applications: These are the software applications such as Developement tools, Web browsers, Database softwares etc.
 
 Note: Everything in Linux is a process.
-
       It starts with PID(ProcessId) 1 i.e. systemd, where 'd' represents 'Daemon' (aka background process).
 
 
@@ -45,9 +45,7 @@ Example: How does your laptop start?
                             ⬇️
             DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
 
-   ↓
-
-
+   
 
 Processes:
 A process is a running instance of a program. Every process has a unique PID and is managed by the Linux kernel.
