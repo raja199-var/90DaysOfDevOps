@@ -1,4 +1,3 @@
-</> markdown
 What is Linux?
 Linux is a free and open-source, Unix-like operating system based on the Linux kernel. 
 It manages hardware resources and provides an environment for running applications.I
