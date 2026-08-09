@@ -1,4 +1,5 @@
-#What is Linux?
+</> markdown
+What is Linux?
 Linux is a free and open-source, Unix-like operating system based on the Linux kernel. 
 It manages hardware resources and provides an environment for running applications.I
 It has different flavours like Ubuntu, RedHat, CentOS,Fedora etc. It can also be called as a kernel which is the heart of the operating system.
