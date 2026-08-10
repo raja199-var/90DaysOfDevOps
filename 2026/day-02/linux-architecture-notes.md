@@ -56,20 +56,20 @@ With systemctl, we can start, stop, restart, enable, disable, and check the stat
 
 ---
 
-## Example: How does your laptop start?
+# Example: How does your laptop start?
 
 ```text
                       POWER ON
-                        ⬇️
+                         ⬇️
 MOTHERBOARD - (BIOS) BASIC INPUT OUTPUT SYSTEM [BIOS AKA FIRMWARE]
-                        ⬇️
-BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
-                        ⬇️
-KERNEL (STARTS A PROCESS)
-                        ⬇️
-SYSTEMD (PID) PROCESS ID 1
-                        ⬇️
-DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
+                         ⬇️
+          BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
+                         ⬇️
+                 KERNEL (STARTS A PROCESS)
+                         ⬇️
+              SYSTEMD (PID) PROCESS ID 1
+                         ⬇️
+          DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
 ```
 
 ---
