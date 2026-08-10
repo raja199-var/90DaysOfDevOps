@@ -8,23 +8,23 @@ It has different flavours like Ubuntu, RedHat, CentOS,Fedora etc. It can also be
 
 ---
 
-# Linux Architecture:
+## Linux Architecture
 
 ---
 
-# What are the core components of Linux?
+## Core Components
 
-## Kernel:
+### Kernel
 
-This is the heart of the Linux which connects software with hardware. This has been written in C language.
+- Kernel\:This is the heart of the Linux which connects software with hardware. This has been written in C language.
 
-## Shell:
+### Shell
 
-This is a command line interface (CLI) which allows users to interact with the kernel by interpreting and translating into instructions that kernel can understand. E.g: bash, ssh, zsh,ksh,csh etc.
+- Shell: This is a command line interface (CLI) which allows users to interact with the kernel by interpreting and translating into instructions that kernel can understand. E.g: bash, ssh, zsh,ksh,csh etc.
 
-## Applications:
+### Applications
 
-These are the software applications such as Developement tools, Web browsers, Database softwares etc.
+- Applications: These are the software applications such as Developement tools, Web browsers, Database softwares etc.
 
 > **Note:** Everything in Linux is a process.
 
@@ -34,9 +34,11 @@ It starts with PID(ProcessId) 1 i.e. systemd, where 'd' represents 'Daemon' (aka
 
 ---
 
-# What systemd does and why it matters?
+## systemd
 
-## What does systemd do and why does it matter?
+### What systemd does and why it matters?
+
+### What does systemd do and why does it matter?
 
 systemd is the system and service manager used by many modern Linux distributions. During boot, it usually runs as PID 1.
 
@@ -54,82 +56,59 @@ With systemctl, we can start, stop, restart, enable, disable, and check the stat
 
 ---
 
-# Example: How does your laptop start?
+## Example: How does your laptop start?
 
 ```text
                       POWER ON
-                         ⬇️
+                        ⬇️
 MOTHERBOARD - (BIOS) BASIC INPUT OUTPUT SYSTEM [BIOS AKA FIRMWARE]
-                         ⬇️
-          BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
-                         ⬇️
-                 KERNEL (STARTS A PROCESS)
-                         ⬇️
-              SYSTEMD (PID) PROCESS ID 1
-                         ⬇️
-          DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
+                        ⬇️
+BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
+                        ⬇️
+KERNEL (STARTS A PROCESS)
+                        ⬇️
+SYSTEMD (PID) PROCESS ID 1
+                        ⬇️
+DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
 ```
 
 ---
 
-# Processes:
+## Processes
 
 A process is a running instance of a program. Every process has a unique PID and is managed by the Linux kernel.
 
-## Common Process States-
+### Common Process States
 
-### Running (R):
+- **Running (R):** Currently executing or ready to run on the CPU.
 
-Currently executing or ready to run on the CPU.
+- **Sleeping (S):** Waiting for an event or resource; normal for many processes.
 
-### Sleeping (S):
+- **Uninterruptible Sleep (D):** Usually waiting for I/O; can indicate an I/O problem if persistent.
 
-Waiting for an event or resource; normal for many processes.
+- **Stopped (T):** Process execution has been paused.
 
-### Uninterruptible Sleep (D):
-
-Usually waiting for I/O; can indicate an I/O problem if persistent.
-
-### Stopped (T):
-
-Process execution has been paused.
-
-### Zombie (Z):
-
-Process has finished, but its parent has not yet collected its exit status.
+- **Zombie (Z):** Process has finished, but its parent has not yet collected its exit status.
 
 ---
 
-# File System Hierarchy:
+## File System Hierarchy
 
-'/' is a root directory (aka folder).
-
-Everything in Linux starts from '/'.
-
-Everything in Linux is a file or directory.
-
-Everything in Linux is a process.
+- '/' is a root directory (aka folder).
+- Everything in Linux starts from '/'.
+- Everything in Linux is a file or directory.
+- Everything in Linux is a process.
 
 ---
 
-# Shell commands for practice:
+## Shell Commands for Practice
 
-## pwd:
+- **pwd:** This shows present working directory.
 
-This shows present working directory.
+- **ls:** List files or directory. (d = directory, l = Link)
 
-## ls:
+- **cd:** This is used to change directory.
 
-List files or directory. (d = directory, l = Link)
+- **cat:** It displays the content of a file.
 
-## cd:
-
-This is used to change directory.
-
-## cat:
-
-It displays the content of a file.
-
-## touch:
-
-It is used to create file.
+- **touch:** It is used to create file.
