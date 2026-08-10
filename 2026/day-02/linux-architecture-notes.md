@@ -58,21 +58,16 @@ With systemctl, we can start, stop, restart, enable, disable, and check the stat
 
 ```text
                       POWER ON
-                        ⬇️
-```
-
-```text
+                         ⬇️
 MOTHERBOARD - (BIOS) BASIC INPUT OUTPUT SYSTEM [BIOS AKA FIRMWARE]
-⬇️
-BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
-⬇️
-KERNEL (STARTS A PROCESS)
-⬇️
-SYSTEMD (PID) PROCESS ID 1
-⬇️
-DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
-
-↓
+                         ⬇️
+          BOOTLOADER (lINUX KERNEL KA CODE KAHA RAKHA HAI)
+                         ⬇️
+                 KERNEL (STARTS A PROCESS)
+                         ⬇️
+              SYSTEMD (PID) PROCESS ID 1
+                         ⬇️
+          DOCKER/KUBERNETES/SSH/NGINX/PRINTER/SCANNER
 ```
 
 ---
