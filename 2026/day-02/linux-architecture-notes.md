@@ -36,8 +36,6 @@ It starts with PID(ProcessId) 1 i.e. systemd, where 'd' represents 'Daemon' (aka
 
 ## systemd
 
-### What systemd does and why it matters?
-
 ### What does systemd do and why does it matter?
 
 systemd is the system and service manager used by many modern Linux distributions. During boot, it usually runs as PID 1.
